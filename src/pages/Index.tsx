@@ -56,6 +56,11 @@ const Index = () => {
                   <p>• Žena 70kg (sedavé povolanie): 1600-1900 kcal</p>
                   <p className="mt-2 text-sm text-gray-600">1kg tuku = 7700 kcal v deficite</p>
                 </div>
+                <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
+                  <p className="font-semibold">⚠️ Dôležité:</p>
+                  <p>Chudni max 1% váhy za týždeň</p>
+                  <p>Váha medzi dňami ≠ množstvo tuku</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -69,11 +74,6 @@ const Index = () => {
               <CardContent>
                 <p className="mb-4">Jedz 1,6g bielkovín na 1kg váhy</p>
                 <p className="mb-4">Cvič - nie kvôli chudnutiu, ale kvôli udržaniu svalov</p>
-                <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
-                  <p className="font-semibold">⚠️ Dôležité:</p>
-                  <p>Chudni max 1% váhy za týždeň</p>
-                  <p>Váha medzi dňami ≠ množstvo tuku</p>
-                </div>
               </CardContent>
             </Card>
           </div>

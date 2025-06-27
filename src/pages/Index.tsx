@@ -49,10 +49,10 @@ const Index = () => {
                 <p className="mb-4"><strong>Chudnutie = kaloricý deficit</strong></p>
                 <p>Spapáš menej kalórií ako spáliš. Je to tak jednoduché.</p>
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg">
-                  <p className="font-semibold">Príklad dennej spotreby:</p>
+                  <p className="font-semibold">Príklad dennej spotreby (udržanie váhy):</p>
                   <p>• Muž 80kg: 2000-2400 kcal</p>
                   <p>• Žena 70kg: 1600-1900 kcal</p>
-                  <p className="mt-2 text-sm text-gray-600">1kg tuku = 7700 kcal v deficite</p>
+                  <p className="mt-2 text-sm text-gray-600">1kg tuku = 7700 kcal</p>
                 </div>
                 <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
                   <p className="font-semibold">⚠️ Dôležité:</p>
@@ -95,7 +95,7 @@ const Index = () => {
                 <div>
                   <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
                   <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
-                  <p className="mt-2">Použite aplikácie ako MyFitnessPal.com a KalorickeTabulky.sk</p>
+                  <p className="mt-2">Použite aplikácie ako  MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>

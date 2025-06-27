@@ -66,14 +66,22 @@ const Index = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent className="rounded-lg">
-                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.
+                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
 
-
-<strong>Odporúčam:</strong>> 
-• Jedz 1,6g bielkovín na 1kg váhy
+<p className="mb-4">
+<strong>Odporúčam:</strong> 
+• Jedz 1,6g bielkovín na 1kg váhy 
 • Cvič pravidelne (aj prechádzky sa počítajú)</p>
                 
               </CardContent>
+              <CardHeader>
+                <CardTitle className="flex items-center">
+                  <Target className="mr-2 text-green-500" />
+                  Udržanie svalov
+                </CardTitle>
+              </CardHeader>
+               <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
+      
             </Card>
           </div>
 

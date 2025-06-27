@@ -16,7 +16,7 @@ const Index = () => {
               <!-- End Google Tag Manager -->
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-center text-gray-900">
-            Ako Schudnúť
+            Slimzyo, ako schudnúť
           </h1>
           
         </div>
@@ -34,7 +34,7 @@ const Index = () => {
                 <Heart className="inline mr-2" />
                 Schudnúť je zdravé, sexy a relatívne jednoduché :)
               </CardTitle>
-              <CardDescription className="text-green-100 text-lg">Sumár otestovaných poznatkov ktoré fungujú. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-lg">Sumár otestovaných poznatkov ktoré fungujú a umožnia spoznať hlavné základy chudnutia. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -286,7 +286,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
-                  info@akoschudnut.sk
+                  info@slimzyo.com
                 </Button>
               </div>
               

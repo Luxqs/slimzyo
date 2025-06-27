@@ -11,9 +11,7 @@ const Index = () => {
           <h1 className="text-3xl font-bold text-center text-gray-900">
             Ako Schudnúť
           </h1>
-          <p className="text-center text-gray-600 mt-2">
-            Fungujúce rady založené na vede, nie na marketingu
-          </p>
+          
         </div>
       </header>
 
@@ -26,9 +24,8 @@ const Index = () => {
                 <Heart className="inline mr-2" />
                 Schudnúť je zdravé a sexy
               </CardTitle>
-              <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké. 
-Sumár otestovaných poznatkov. 
-Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké.
+Sumár otestovaných poznatkov.  Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -70,13 +67,13 @@ Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
                 </CardTitle>
               </CardHeader>
               <CardContent className="rounded-lg">
-                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.  
+                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.
 
 
-Odporúčam:
-• Jedz 1,6g bielkovín na 1kg váhy   
+Odporúčam: 
+• Jedz 1,6g bielkovín na 1kg váhy
 • Cvič pravidelne (aj prechádzky sa počítajú)</p>
-                <p className="mb-4">Cvič - nie kvôli chudnutiu, ale kvôli udržaniu svalov</p>
+                
               </CardContent>
             </Card>
           </div>
@@ -167,11 +164,7 @@ Odporúčam:
                 </ul>
               </div>
               
-              <div className="bg-red-50 p-4 rounded-lg">
-                <p className="font-semibold text-red-700">❌ Mýtus:</p>
-                <p>"Cvičím brucho, aby som tam schudla"</p>
-                <p className="text-sm mt-1">Geneticky je dané, z akej časti tela chudneme.</p>
-              </div>
+              
             </CardContent>
           </Card>
         </section>
@@ -290,9 +283,8 @@ Odporúčam:
           <p className="text-sm">
             Obsah pravidelne aktualizujem pre lepšiu zrozumiteľnosť a presnosť.
           </p>
-          <p className="text-xs mt-2 opacity-75">
-            Založené na vedeckých poznatkov a osobných zkušenostiach.
-          </p>
+          <p className="text-xs mt-2 opacity-75">Založené na vedeckých poznatkov a osobných zkušenostiach.
+Luxqs</p>
         </div>
       </footer>
     </div>;

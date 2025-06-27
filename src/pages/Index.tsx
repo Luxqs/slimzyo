@@ -32,7 +32,7 @@ const Index = () => {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl mb-4">
                 <Heart className="inline mr-2" />
-                Schudnúť je zdravé, sexy a relatívne jednoduché :)
+                Schudnúť je zdravé, sexy a relatívne jednoduché.
               </CardTitle>
               <CardDescription className="text-green-100 text-lg">Sumár otestovaných poznatkov ktoré fungujú a umožnia spoznať hlavné základy chudnutia. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
@@ -79,7 +79,7 @@ const Index = () => {
                 <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
 
 <p className="mb-4">
-<strong>Odporúčam:</strong> <br/>
+<strong>Odporúčam:</strong><br/>
 • Jedz 1,6g bielkovín na 1kg váhy <br/>
 • Cvič pravidelne (aj prechádzky sa počítajú)</p>
                 
@@ -92,10 +92,10 @@ const Index = () => {
               </CardHeader>
                <CardContent className="rounded-lg">
                  <p className="mb-4">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
-                 <p className="mb-4"><strong>Prečo aj tak cvičiť:</strong> <br/>
-                   • Udržanie svalovej hmoty <br/>
-                   • Spevnenie kostí <br/>
-                   • Zlepšenie VO2 Max <br/>
+                 <p className="mb-4"><strong>Prečo aj tak cvičiť:</strong><br/>
+                   • Udržanie svalovej hmoty<br/>
+                   • Spevnenie kostí<br/>
+                   • Zlepšenie VO2 Max<br/>
                    • Formovanie postavy</strong></p>
                 </CardContent>
             </Card>
@@ -307,7 +307,7 @@ const Index = () => {
             Obsah pravidelne aktualizujem pre lepšiu zrozumiteľnosť a presnosť.
           </p>
           <p className="text-xs mt-2 opacity-75">Založené na vedeckých poznatkov a osobných zkušenostiach.
-Luxqs</p>
+Luxqs.</p>
         </div>
       </footer>
     </div>;

@@ -76,15 +76,49 @@ const Index = () => {
             </Card>
           </div>
 
-          {/* Calorie Calculator */}
-          <div className="mb-8">
-            <CalorieCalculator />
-          </div>
+          {/* Praktický manuál */}
+          <Card className="border-2 border-blue-200">
+            <CardHeader>
+              <CardTitle className="flex items-center">
+                <BookOpen className="mr-2 text-blue-500" />
+                Praktický manuál
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">1</span>
+                  <p><strong>Zisti si dennú spotrebu kalórií</strong> (kalkulačka + ChatGPT prompt)</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">2</span>
+                  <p><strong>Odčítaj 300-500 kcal</strong> od dennej spotreby</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">3</span>
+                  <p><strong>Meraj kalórie</strong> cez aplikácie/fotky jedál do ChatGPT</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">4</span>
+                  <p><strong>Váž sa denne</strong> a sleduj týždenný priemer</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">5</span>
+                  <p><strong>Upravuj</strong> - ak nechudneš, zníž príjem o ďalších 100 kcal</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </section>
 
         {/* Essential Tools */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 text-center">Nevyhnutné nástroje</h2>
+          
+          {/* Calorie Calculator */}
+          <div className="mb-8">
+            <CalorieCalculator />
+          </div>
           
           <Card className="mb-6">
             <CardHeader>
@@ -95,7 +129,7 @@ const Index = () => {
                 <div>
                   <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
                   <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
-                  <p className="mt-2">Použite aplikácie ako  MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
+                  <p className="mt-2">Použite aplikácie ako  MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>
@@ -159,42 +193,6 @@ const Index = () => {
                     <li>Nemaj doma nezdravé jedlo</li>
                     <li>Cheat meal je OK, ale s rozumom</li>
                   </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
-
-        {/* Manual/Guide */}
-        <section className="mb-12">
-          <Card className="border-2 border-blue-200">
-            <CardHeader>
-              <CardTitle className="flex items-center">
-                <BookOpen className="mr-2 text-blue-500" />
-                Praktický manuál
-              </CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">1</span>
-                  <p><strong>Zisti si dennú spotrebu kalórií</strong> (kalkulačka + ChatGPT prompt)</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">2</span>
-                  <p><strong>Odčítaj 300-500 kcal</strong> od dennej spotreby</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">3</span>
-                  <p><strong>Meraj kalórie</strong> cez aplikácie/fotky jedál do ChatGPT</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">4</span>
-                  <p><strong>Váž sa denne</strong> a sleduj týždenný priemer</p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">5</span>
-                  <p><strong>Upravuj</strong> - ak nechudneš, zníž príjem o ďalších 100 kcal</p>
                 </div>
               </div>
             </CardContent>

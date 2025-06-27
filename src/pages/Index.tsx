@@ -24,8 +24,7 @@ const Index = () => {
                 <Heart className="inline mr-2" />
                 Schudnúť je zdravé, sexy a relatívne jednoduché :)
               </CardTitle>
-              <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké.
-Sumár otestovaných poznatkov ktoré priebžne vylepšujem. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-lg">Sumár otestovaných poznatkov ktoré fungujú. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -70,7 +69,7 @@ Sumár otestovaných poznatkov ktoré priebžne vylepšujem. Ak trpíte ochoren�
                 <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.
 
 
-Odporúčam: 
+<strong>Odporúčam:</strong>> 
 • Jedz 1,6g bielkovín na 1kg váhy
 • Cvič pravidelne (aj prechádzky sa počítajú)</p>
                 

@@ -3,8 +3,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
+
 const Index = () => {
-  return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
@@ -115,30 +117,33 @@ const Index = () => {
         <section className="mb-12">
           <h2 className="text-2xl font-bold mb-6 text-center">Nevyhnutné nástroje</h2>
           
-          {/* Calorie Calculator */}
-          <div className="mb-8">
-            <CalorieCalculator />
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
+            {/* Meranie kalórií a váhy - Left column */}
+            <Card>
+              <CardHeader>
+                <CardTitle>Meranie kalórií a váhy</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-6">
+                  <div>
+                    <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
+                    <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
+                    <p className="mt-2">Použite aplikácie ako MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>
+                    <p>Holo, boso, vždy za rovnakých podmienok</p>
+                    <p className="mt-2">Sleduj týždenný priemer, nie denné výkyvy</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Kalkulačka dennej spotreby kalórií - Right column */}
+            <div>
+              <CalorieCalculator />
+            </div>
           </div>
-          
-          <Card className="mb-6">
-            <CardHeader>
-              <CardTitle>Meranie kalórií a váhy</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
-                  <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
-                  <p className="mt-2">Použite aplikácie ako  MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
-                </div>
-                <div>
-                  <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>
-                  <p>Holo, boso, vždy za rovnakých podmienok</p>
-                  <p className="mt-2">Sleduj týždenný priemer, nie denné výkyvy</p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
         </section>
 
         {/* Exercise Section */}
@@ -287,6 +292,8 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>;
+    </div>
+  );
 };
+
 export default Index;

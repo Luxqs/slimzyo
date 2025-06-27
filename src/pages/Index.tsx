@@ -287,6 +287,10 @@ const Index = () => {
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
                   info@slimzyo.com
+                </Button> &nbsp;
+                <Button variant="secondary" className="flex items-center">
+                  <Mail className="mr-2 w-4 h-4" />
+                  <a href="https://buymeacoffee.com/luxqs">buymeacoffee.com/luxqs</a>
                 </Button>
               </div>
               

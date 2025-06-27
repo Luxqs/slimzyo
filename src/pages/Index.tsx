@@ -50,14 +50,14 @@ const Index = () => {
                 <p>Spapáš menej kalórií ako spáliš. Je to tak jednoduché.</p>
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                   <p className="font-semibold">Príklad dennej spotreby:</p>
-                  <p>• Muž 80kg (sedavé povolanie): 2000-2400 kcal</p>
-                  <p>• Žena 70kg (sedavé povolanie): 1600-1900 kcal</p>
+                  <p>• Muž 80kg: 2000-2400 kcal</p>
+                  <p>• Žena 70kg: 1600-1900 kcal</p>
                   <p className="mt-2 text-sm text-gray-600">1kg tuku = 7700 kcal v deficite</p>
                 </div>
                 <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
                   <p className="font-semibold">⚠️ Dôležité:</p>
                   <p>Chudni max 1% váhy za týždeň</p>
-                  <p>Váha medzi dňami ≠ množstvo tuku</p>
+                  <p>Znížená váha medzi dňami ≠ znížené množstvo tuku</p>
                 </div>
               </CardContent>
             </Card>

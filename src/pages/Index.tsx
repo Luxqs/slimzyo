@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+  return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
@@ -28,9 +26,9 @@ const Index = () => {
                 <Heart className="inline mr-2" />
                 Schudnúť je zdravé a sexy
               </CardTitle>
-              <CardDescription className="text-green-100 text-lg">
-                Funguje to pre každého a nie je to ťažké. Toto stačí vedieť:
-              </CardDescription>
+              <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké. 
+Sumár otestovaných poznatkov. 
+Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -292,8 +290,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

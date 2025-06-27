@@ -62,7 +62,7 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Target className="mr-2 text-green-500" />
-                  Udržanie svalov
+                  Udržanie svalov 1
                 </CardTitle>
               </CardHeader>
               <CardContent className="rounded-lg">
@@ -77,7 +77,7 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Target className="mr-2 text-green-500" />
-                  Udržanie svalov
+                  Udržanie svalov 2
                 </CardTitle>
               </CardHeader>
                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>

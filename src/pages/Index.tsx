@@ -70,7 +70,12 @@ Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="mb-4">Jedz 1,6g bielkovín na 1kg váhy</p>
+                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot. Spomaliť/zastaviť tento úbyťok to môžeš:
+• Jedz 1,6g bielkovín na 1kg váhy
+• Cvič
+
+
+🏃‍♂️ Šport a cvičenie</p>
                 <p className="mb-4">Cvič - nie kvôli chudnutiu, ale kvôli udržaniu svalov</p>
               </CardContent>
             </Card>

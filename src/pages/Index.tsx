@@ -1,8 +1,8 @@
-
 import { Calculator, Heart, Target, BookOpen, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import CalorieCalculator from "@/components/CalorieCalculator";
 
 const Index = () => {
   return (
@@ -76,6 +76,11 @@ const Index = () => {
                 </div>
               </CardContent>
             </Card>
+          </div>
+
+          {/* Calorie Calculator */}
+          <div className="mb-8">
+            <CalorieCalculator />
           </div>
         </section>
 

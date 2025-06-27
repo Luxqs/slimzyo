@@ -69,13 +69,10 @@ Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
                   Udržanie svalov
                 </CardTitle>
               </CardHeader>
-              <CardContent>
-                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot. Spomaliť/zastaviť tento úbyťok to môžeš:
-• Jedz 1,6g bielkovín na 1kg váhy
-• Cvič
-
-
-🏃‍♂️ Šport a cvičenie</p>
+              <CardContent className="rounded-lg">
+                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot. Spomaliť/zastaviť tento úbyťok to môžeš: 
+• Jedz 1,6g bielkovín na 1kg váhy 
+• Cvič pravidelne</p>
                 <p className="mb-4">Cvič - nie kvôli chudnutiu, ale kvôli udržaniu svalov</p>
               </CardContent>
             </Card>
@@ -154,11 +151,11 @@ Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
           <Card>
             <CardHeader>
               <CardTitle>🏃‍♂️ Šport a cvičenie</CardTitle>
-              <CardDescription>Dôležité pre zdravie, nie nevyhnutné pre chudnutie</CardDescription>
+              <CardDescription>Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</CardDescription>
             </CardHeader>
             <CardContent>
               <div className="mb-4">
-                <h4 className="font-semibold mb-2">Prečo cvičiť:</h4>
+                <h4 className="font-semibold mb-2">Prečo aj tak cvičiť:</h4>
                 <ul className="list-disc pl-6 space-y-1">
                   <li>Udržanie svalovej hmoty</li>
                   <li>Spevnenie kostí</li>
@@ -239,7 +236,7 @@ Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
                   <li>• "Pre mňa to neplatí"</li>
                   <li>• "Musím hladovať"</li>
                   <li>• "Jojo efekt je nevyhnutný"</li>
-                  <li>• "Metabolizmus sa spomalí navždy"</li>
+                  <li>• "Metabolizmus sa spomalí navždy*"</li>
                 </ul>
                 
                 <div className="mt-4 p-3 bg-green-50 rounded">

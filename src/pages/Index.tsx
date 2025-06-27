@@ -52,8 +52,8 @@ const Index = () => {
                 </div>
                 <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
                   <p className="font-semibold">⚠️ Dôležité:</p>
-                  <p>Chudni max 1% váhy za týždeň</p>
-                  <p>Znížená váha medzi dňami ≠ znížené množstvo tuku</p>
+                  <p>• Chudni max 1% váhy za týždeň</p>
+                  <p>• Znížená váha medzi dňami ≠ znížené množstvo tuku</p>
                 </div>
               </CardContent>
             </Card>
@@ -77,12 +77,12 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Target className="mr-2 text-green-500" />
-                  Šport a cvičenie
+                  🏃‍♂️ Šport a cvičenie
                 </CardTitle>
               </CardHeader>
                <CardContent className="rounded-lg">
                  <p className="mb-4">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
-                 <p className="mb-4"><strong>Prečo aj tak cvičiť: <br/>
+                 <p className="mb-4"><strong>Prečo aj tak cvičiť:</strong> <br/>
                    • Udržanie svalovej hmoty <br/>
                    • Spevnenie kostí <br/>
                    • Zlepšenie VO2 Max <br/>
@@ -103,7 +103,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">1</span>
-                  <p><strong>Zisti si dennú spotrebu kalórií</strong> (kalkulačka + ChatGPT prompt)</p>
+                  <p><strong>Zisti si denný výdaj kalórií</strong> (kalkulačka dole alebo ChatGPT prompt)</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">2</span>
@@ -111,7 +111,7 @@ const Index = () => {
                 </div>
                 <div className="flex items-start space-x-3">
                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">3</span>
-                  <p><strong>Meraj kalórie</strong> cez aplikácie/fotky jedál do ChatGPT</p>
+                  <p><strong>Meraj prijaté kalórie</strong> cez aplikácie a/lebo fotky jedál do cez ChatGPT</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold">4</span>
@@ -141,7 +141,7 @@ const Index = () => {
                   <div>
                     <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
                     <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
-                    <p className="mt-2">Použite aplikácie ako MyFitnessPal.com, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
+                    <p className="mt-2">Použite aplikácie ako <a href="https://www.myfitnesspal.com/?utm_source=akoschudnut.sk&utm_medium=web&utm_campaign=affiliate&utm_content=recommendation_by_akoschudnut.sk">MyFitnessPal.com</a>, KalorickeTabulky.sk a ChatGPT (fotka menučka) na meranie zjedený kalórii</p>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>

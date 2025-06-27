@@ -69,19 +69,25 @@ const Index = () => {
                 <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
 
 <p className="mb-4">
-<strong>Odporúčam:</strong> 
-• Jedz 1,6g bielkovín na 1kg váhy 
+<strong>Odporúčam:</strong> <br/>
+• Jedz 1,6g bielkovín na 1kg váhy <br/>
 • Cvič pravidelne (aj prechádzky sa počítajú)</p>
                 
               </CardContent>
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Target className="mr-2 text-green-500" />
-                  Udržanie svalov 2
+                  Šport a cvičenie
                 </CardTitle>
               </CardHeader>
-               <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
-      
+               <CardContent className="rounded-lg">
+                 <p className="mb-4">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
+                 <p className="mb-4"><strong>Prečo aj tak cvičiť: <br/>
+                   • Udržanie svalovej hmoty <br/>
+                   • Spevnenie kostí <br/>
+                   • Zlepšenie VO2 Max <br/>
+                   • Formovanie postavy</strong></p>
+                </CardContent>
             </Card>
           </div>
 

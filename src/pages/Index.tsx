@@ -25,7 +25,7 @@ const Index = () => {
                 Schudnúť je zdravé, sexy a relatívne jednoduché :)
               </CardTitle>
               <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké.
-Sumár otestovaných poznatkov.  Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
+Sumár otestovaných poznatkov ktoré priebžne vylepšujem. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>

@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+  return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
@@ -96,8 +94,8 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div>
                   <h4 className="font-semibold mb-2">📱 Meranie kalórií</h4>
-                  <p>Väčšina ľudí sa mýli v odhadovaní až o 40%!</p>
-                  <p className="mt-2">Použite aplikácie ako MyFitnessPal</p>
+                  <p>Väčšina ľudí sa mýli v odhadovaní cez 40%!</p>
+                  <p className="mt-2">Použite aplikácie ako MyFitnessPal.com a KalorickeTabulky.sk</p>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2">⚖️ Denné váženie</h4>
@@ -291,8 +289,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

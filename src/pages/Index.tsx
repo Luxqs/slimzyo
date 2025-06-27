@@ -22,7 +22,7 @@ const Index = () => {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl mb-4">
                 <Heart className="inline mr-2" />
-                Schudnúť je zdravé a sexy
+                Schudnúť je zdravé, sexy a relatívne jednoduché :)
               </CardTitle>
               <CardDescription className="text-green-100 text-lg">Funguje to pre každého a nie je to ťažké.
 Sumár otestovaných poznatkov.  Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>

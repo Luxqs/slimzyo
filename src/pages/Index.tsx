@@ -262,15 +262,15 @@ const Index = () => {
             <CardHeader className="text-center">
               <CardTitle className="flex items-center justify-center">
                 <Users className="mr-2" />
-                Prečo to píšem a ako môžem pomôcť
+                Prečo to píšem
               </CardTitle>
             </CardHeader>
             <CardContent className="text-center">
               <p className="mb-4">
-                <strong>Pozor, nie som lekár!</strong> Ak ty si, tvoj feedback má hodnotu zlata.
+                Internet je zahltený PR článkami ktoré sa kôr <i></>"snažia predať ryby ako naučiť loviť"</i>. Ja sa snažím zachytiť podstatu, ktorá je, dúfam zrozumiteľná a funguje. Možno to rozšírim o blog kde sa budem venovať detailom.
               </p>
               <p className="mb-4">
-                Internet je plný blbostí. Snažím sa zachytiť podstatu, ktorá skutočne funguje.
+                <strong>Pozor, nie som lekár!</strong> Ak ty si, tvoj feedback má hodnotu zlata. Každá konštruktívna kritiku je vítaná (aj poďakovanie :) ).
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-6">

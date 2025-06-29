@@ -7,13 +7,7 @@ const Index = () => {
   return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
-              <!-- Google Tag Manager -->
-              <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-              })(window,document,'script','dataLayer','GTM-NM3M96NN');</script>
-              <!-- End Google Tag Manager -->
+    
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-center text-gray-900">
             Slimzyo, ako schudnúť
@@ -22,10 +16,6 @@ const Index = () => {
         </div>
       </header>
       <main className="container mx-auto px-4 py-8 max-w-4xl">
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NM3M96NN"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
         {/* Intro Section */}
         <section className="mb-12">
           <Card className="bg-gradient-to-r from-green-500 to-blue-500 text-white">

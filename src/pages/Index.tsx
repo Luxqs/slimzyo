@@ -68,10 +68,10 @@ const Index = () => {
               <CardContent className="rounded-lg">
                 <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
 
-<p className="mb-4">
-<strong>Odporúčam:</strong><br/>
-• Jedz 1,6g bielkovín na 1kg váhy <br/>
-• Cvič pravidelne (aj prechádzky sa počítajú)</p>
+                <p className="mb-4">
+                <strong>Odporúčam:</strong><br/>
+                • Jedz 1,6g bielkovín na 1kg váhy <br/>
+                • Cvič pravidelne (aj prechádzky sa počítajú)</p>
                 
               </CardContent>
               <CardHeader>
@@ -277,7 +277,7 @@ const Index = () => {
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
                   info@slimzyo.com
-                </Button> &nbsp;
+                </Button> {'\u00A0'}
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
                   <a href="https://buymeacoffee.com/luxqs">buymeacoffee.com/luxqs</a>

@@ -3,10 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+  return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
@@ -46,12 +44,13 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="mb-4"><strong>Chudnutie = kaloricý deficit</strong></p>
-                <p>Spapáš menej kalórií ako spáliš. Je to tak jednoduché.</p>
+                <p>• Spapáš menej kalórií ako spáliš. 
+• 7700 kcal = 1 kg tuku.</p>
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                   <p className="font-semibold">Príklad dennej spotreby (udržanie váhy):</p>
-                  <p>• Muž 80kg: 2000-2400 kcal</p>
-                  <p>• Žena 70kg: 1600-1900 kcal</p>
-                  <p className="mt-2 text-sm text-gray-600">1kg tuku = 7700 kcal</p>
+                  <p>• Muž 80kg: 2 000 - 2 400 kcal</p>
+                  <p>• Žena 70kg: 1 600 - 1 900 kcal</p>
+                  
                 </div>
                 <div className="mt-4 p-4 bg-yellow-50 rounded-lg">
                   <p className="font-semibold">⚠️ Dôležité:</p>
@@ -71,8 +70,8 @@ const Index = () => {
               <CardContent>
                 <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej hmoty.</p>
                 <p className="mb-4">
-                  <strong>Odporúčam:</strong><br/>
-                  • Jedz 1,6g bielkovín na 1kg váhy <br/>
+                  <strong>Odporúčam:</strong><br />
+                  • Jedz 1,6g bielkovín na 1kg váhy <br />
                   • Cvič pravidelne (aj prechádzky sa počítajú)
                 </p>
               
@@ -81,7 +80,7 @@ const Index = () => {
               <h4 className="font-semibold mb-2 flex items-center">
                 🏃‍♂️ Šport a cvičenie
               </h4>
-              <p className="text-sm text-gray-600 mb-3">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
+              <p className="text-sm mb-3 text-inherit">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
               
               <div>
                 <h5 className="font-semibold mb-2 text-sm">Prečo aj tak cvičiť:</h5>
@@ -166,23 +165,7 @@ const Index = () => {
 
         {/* Exercise Section */}
         <section className="mb-12">
-          <Card>
-            <CardHeader>
-              <CardTitle>🏃‍♂️ Šport a cvičenie</CardTitle>
-              <CardDescription>Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="mb-4">
-                <h4 className="font-semibold mb-2">Prečo aj tak cvičiť:</h4>
-                <ul className="list-disc pl-6 space-y-1">
-                  <li>Udržanie svalovej hmoty</li>
-                  <li>Spevnenie kostí</li>
-                  <li>Zlepšenie VO2 Max</li>
-                  <li>Formovanie postavy</li>
-                </ul>
-              </div>
-            </CardContent>
-          </Card>
+          
         </section>
 
         {/* Psychology Section */}
@@ -248,7 +231,7 @@ const Index = () => {
                   <li>• "Pre mňa to neplatí"</li>
                   <li>• "Musím hladovať"</li>
                   <li>• "Jojo efekt je nevyhnutný"</li>
-                  <li>• "Metabolizmus sa spomalí navždy*"</li>
+                  <li className="rounded-none">• "Metabolizmus sa spomalí navždy*"</li>
                 </ul>
                 
                 <div className="mt-4 p-3 bg-green-50 rounded">
@@ -308,8 +291,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

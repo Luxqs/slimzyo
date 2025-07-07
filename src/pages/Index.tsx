@@ -1,20 +1,22 @@
+
 import { Calculator, Heart, Target, BookOpen, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
+
 const Index = () => {
-  return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
       {/* Header */}
       <header className="bg-white shadow-sm border-b">
-    
         <div className="container mx-auto px-4 py-6">
           <h1 className="text-3xl font-bold text-center text-gray-900">
             Slimzyo, ako schudnúť
           </h1>
-          
         </div>
       </header>
+
       <main className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Intro Section */}
         <section className="mb-12">
@@ -24,7 +26,9 @@ const Index = () => {
                 <Heart className="inline mr-2" />
                 Schudnúť je zdravé, sexy a relatívne jednoduché.
               </CardTitle>
-              <CardDescription className="text-green-100 text-lg">Sumár otestovaných poznatkov ktoré fungujú a umožnia spoznať hlavné základy chudnutia. Ak trpíte ochorením, prosím, konzultujte to s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-lg">
+                Sumár otestovaných poznatkov ktoré fungujú a umožnia spoznať hlavné základy chudnutia. Ak trpíte ochorením, prosím, konzultujte to s lekárom.
+              </CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -62,32 +66,17 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="flex items-center">
                   <Target className="mr-2 text-green-500" />
-                  Udržanie svalov 1
+                  Udržanie svalov
                 </CardTitle>
               </CardHeader>
-              <CardContent className="rounded-lg">
-                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej homot.</p>
-
+              <CardContent>
+                <p className="mb-4">Pri chudnutí dochádza aj k nežiadúcemu ubytku svalovej hmoty.</p>
                 <p className="mb-4">
-                <strong>Odporúčam:</strong><br/>
-                • Jedz 1,6g bielkovín na 1kg váhy <br/>
-                • Cvič pravidelne (aj prechádzky sa počítajú)</p>
-                
+                  <strong>Odporúčam:</strong><br/>
+                  • Jedz 1,6g bielkovín na 1kg váhy <br/>
+                  • Cvič pravidelne (aj prechádzky sa počítajú)
+                </p>
               </CardContent>
-              <CardHeader>
-                <CardTitle className="flex items-center">
-                  <Target className="mr-2 text-green-500" />
-                  🏃‍♂️ Šport a cvičenie
-                </CardTitle>
-              </CardHeader>
-               <CardContent className="rounded-lg">
-                 <p className="mb-4">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
-                 <p className="mb-4"><strong>Prečo aj tak cvičiť:</strong><br/>
-                   • Udržanie svalovej hmoty<br/>
-                   • Spevnenie kostí<br/>
-                   • Zlepšenie VO2 Max<br/>
-                   • Formovanie postavy</strong></p>
-                </CardContent>
             </Card>
           </div>
 
@@ -176,8 +165,6 @@ const Index = () => {
                   <li>Formovanie postavy</li>
                 </ul>
               </div>
-              
-              
             </CardContent>
           </Card>
         </section>
@@ -267,7 +254,7 @@ const Index = () => {
             </CardHeader>
             <CardContent className="text-center">
               <p className="mb-4">
-                Internet je zahltený PR článkami ktoré sa kôr <i></>"snažia predať ryby ako naučiť loviť"</i>. Ja sa snažím zachytiť podstatu, ktorá je, dúfam zrozumiteľná a funguje. Možno to rozšírim o blog kde sa budem venovať detailom.
+                Internet je zahltený PR článkami ktoré sa kôr <i>"snažia predať ryby ako naučiť loviť"</i>. Ja sa snažím zachytiť podstatu, ktorá je, dúfam zrozumiteľná a funguje. Možno to rozšírim o blog kde sa budem venovať detailom.
               </p>
               <p className="mb-4">
                 <strong>Pozor, nie som lekár!</strong> Ak ty si, tvoj feedback má hodnotu zlata. Každá konštruktívna kritiku je vítaná (aj poďakovanie :) ).
@@ -277,7 +264,7 @@ const Index = () => {
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
                   info@slimzyo.com
-                </Button> {'\u00A0'}
+                </Button>
                 <Button variant="secondary" className="flex items-center">
                   <Mail className="mr-2 w-4 h-4" />
                   <a href="https://buymeacoffee.com/luxqs">buymeacoffee.com/luxqs</a>
@@ -300,10 +287,13 @@ const Index = () => {
           <p className="text-sm">
             Obsah pravidelne aktualizujem pre lepšiu zrozumiteľnosť a presnosť.
           </p>
-          <p className="text-xs mt-2 opacity-75">Založené na vedeckých poznatkov a osobných zkušenostiach.
-Luxqs.</p>
+          <p className="text-xs mt-2 opacity-75">
+            Založené na vedeckých poznatkov a osobných zkušenostiach. Luxqs.
+          </p>
         </div>
       </footer>
-    </div>;
+    </div>
+  );
 };
+
 export default Index;

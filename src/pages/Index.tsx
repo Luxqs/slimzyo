@@ -1,10 +1,8 @@
-
 import { Calculator, Heart, Target, BookOpen, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import CalorieCalculator from "@/components/CalorieCalculator";
-
 const Index = () => {
   return <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 font-sans">
       {/* Header */}
@@ -13,9 +11,7 @@ const Index = () => {
           <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 leading-tight">
             Slimzyo: Ako schudnúť zdravo a účinne
           </h1>
-          <p className="text-center text-gray-600 mt-2 text-sm md:text-base">
-            Overené metódy chudnutia založené na vede
-          </p>
+          
         </div>
       </header>
 
@@ -24,14 +20,8 @@ const Index = () => {
         <section className="mb-8 md:mb-12">
           <Card className="bg-gradient-to-r from-green-500 to-blue-500 text-white">
             <CardHeader className="text-center px-4 py-6">
-              <CardTitle className="text-xl md:text-2xl mb-4 leading-tight">
-                <Heart className="inline mr-2 w-5 h-5 md:w-6 md:h-6" />
-                Schudnúť je zdravé, atraktívne a relatívne jednoduché
-              </CardTitle>
-              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">
-                Súhrn overených poznatkov, ktoré skutočně fungujú a umožnia vám pochopiť základy zdravého chudnutia. 
-                Ak trpíte akýmkoľvek ochorením, konzultujte prosím svoj plán chudnutia s lekárom.
-              </CardDescription>
+              
+              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">Súhrn overených poznatkov, ktoré fungujú a umožnia vám pochopiť základy zdravého chudnutia. Ak trpíte akýmkoľvek ochorením, konzultujte prosím svoj plán chudnutia s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>
@@ -49,7 +39,7 @@ const Index = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="mb-4 font-semibold text-base md:text-lg">Chudnutie = kalorický deficit</p>
+                
                 <ul className="list-disc pl-6 space-y-2 mb-4 text-sm md:text-base">
                   <li>Kalorický deficit nastane, keď prijmete menej kalórií, ako spálite</li>
                   <li>Úbytok 7 700 kcal = približne 1 kg telesného tuku</li>
@@ -82,7 +72,7 @@ const Index = () => {
                   Pri chudnutí dochádza aj k nežiaducemu úbytku svalovej hmoty.
                 </p>
                 <div>
-                  <p className="mb-3 text-sm md:text-base">
+                  <p className="mb-3 text-sm md:text-base text-inherit">
                     <strong>Odporúčame:</strong><br />
                     • Konzumujte 1,6g bielkovín na 1kg telesnej váhy<br />
                     • Cvičte pravidelne (aj prechádzky sa počítajú)
@@ -95,7 +85,7 @@ const Index = () => {
                   <h4 className="font-semibold mb-2 flex items-center text-sm md:text-base">
                     🏃‍♂️ Šport a cvičenie
                   </h4>
-                  <p className="text-xs md:text-sm mb-3 text-gray-600">
+                  <p className="text-xs mb-3 text-inherit md:text-base">
                     Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia závisí od kalorického deficitu.
                   </p>
                   
@@ -308,5 +298,4 @@ const Index = () => {
       </footer>
     </div>;
 };
-
 export default Index;

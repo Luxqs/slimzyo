@@ -1,4 +1,3 @@
-
 import { Calculator, Heart, Target, BookOpen, Users, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -76,9 +75,26 @@ const Index = () => {
                   • Jedz 1,6g bielkovín na 1kg váhy <br/>
                   • Cvič pravidelne (aj prechádzky sa počítajú)
                 </p>
-              </CardContent>
-            </Card>
-          </div>
+              
+              <Separator className="my-4" />
+              
+              <h4 className="font-semibold mb-2 flex items-center">
+                🏃‍♂️ Šport a cvičenie
+              </h4>
+              <p className="text-sm text-gray-600 mb-3">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia je kalorický deficit.</p>
+              
+              <div>
+                <h5 className="font-semibold mb-2 text-sm">Prečo aj tak cvičiť:</h5>
+                <ul className="list-disc pl-6 space-y-1 text-sm">
+                  <li>Udržanie svalovej hmoty</li>
+                  <li>Spevnenie kostí</li>
+                  <li>Zlepšenie VO2 Max</li>
+                  <li>Formovanie postavy</li>
+                </ul>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
 
           {/* Praktický manuál */}
           <Card className="border-2 border-blue-200">

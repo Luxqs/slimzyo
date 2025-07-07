@@ -44,8 +44,7 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="mb-4"><strong>Chudnutie = kaloricý deficit</strong></p>
-                <p>• Spapáš menej kalórií ako spáliš.
-• 7700 kcal = 1 kg tuku.</p>
+                <p>• Kalorický deficit nastane, ak spapáš menej kalórií ako spáliš. • Ak prídeš o 7 700 kcal = 1 kg tuku. • Otatné informácie sú už iba pomôcky na </p>
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                   <p className="font-semibold">Príklad dennej spotreby (udržanie váhy):</p>
                   <p>• Muž 80kg: 2 000 - 2 400 kcal</p>

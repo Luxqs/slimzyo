@@ -44,7 +44,12 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <p className="mb-4"><strong>Chudnutie = kaloricý deficit</strong></p>
-                <p>• Kalorický deficit nastane, ak spapáš menej kalórií ako spáliš. • Ak prídeš o 7 700 kcal = 1 kg tuku. • Otatné informácie sú už iba pomôcky na </p>
+                <ul className="list-disc pl-6 space-y-1 mb-4">
+                  <li>Kalorický deficit nastane, ak spapáš menej kalórií ako spáliš</li>
+                  <li>Ak prídeš o 7 700 kcal = 1 kg tuku</li>
+                  <li>Ostatné informácie sú už iba pomôcky</li>
+                </ul>
+                
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg">
                   <p className="font-semibold">Príklad dennej spotreby (udržanie váhy):</p>
                   <p>• Muž 80kg: 2 000 - 2 400 kcal</p>

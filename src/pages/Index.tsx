@@ -9,7 +9,7 @@ const Index = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-center gap-4">
-            <img src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" alt="Slimzyo Logo" className="h-12 w-12 md:h-16 md:w-16" />
+            <img alt="Slimzyo Logo" className="h-12 w-12 md:h-16 md:w-16" src="/lovable-uploads/b22ed550-3577-45c8-88b9-71a1958b5c38.png" />
             <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 leading-tight">
               Slimzyo: Ako schudnúť zdravo a účinne
             </h1>

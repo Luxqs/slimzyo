@@ -9,11 +9,7 @@ const Index = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
           <div className="flex items-center justify-center gap-4">
-            <img 
-              src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" 
-              alt="Slimzyo Logo" 
-              className="h-12 w-12 md:h-16 md:w-16"
-            />
+            <img src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" alt="Slimzyo Logo" className="h-12 w-12 md:h-16 md:w-16" />
             <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 leading-tight">
               Slimzyo: Ako schudnúť zdravo a účinne
             </h1>
@@ -49,11 +45,11 @@ const Index = () => {
                 <ul className="space-y-2 mb-4">
                   <li className="flex items-start text-sm md:text-base">
                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                    <span>Kalorický deficit nastane, keď prijmete menej kalórií, ako spálite</span>
+                    <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spáliš</span>
                   </li>
                   <li className="flex items-start text-sm md:text-base">
                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                    <span>Úbytok 7 700 kcal = približne 1 kg telesného tuku</span>
+                    <span>Úbytok 7 700 kcal ≈ 1 kg telesného tuku</span>
                   </li>
                   <li className="flex items-start text-sm md:text-base">
                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
@@ -77,11 +73,11 @@ const Index = () => {
                   <p className="font-semibold text-sm md:text-base">⚠️ Dôležité upozornenie:</p>
                   <div className="flex items-start text-sm md:text-base">
                     <span className="text-yellow-600 mr-3 mt-1 flex-shrink-0">•</span>
-                    <span>Chudnite maximálne 1% telesnej váhy za týždeň</span>
+                    <span>Chudni maxi. 1% telesnej váhy za týždeň</span>
                   </div>
                   <div className="flex items-start text-sm md:text-base">
                     <span className="text-yellow-600 mr-3 mt-1 flex-shrink-0">•</span>
-                    <span>Znížená váha medzi dňami ≠ znížené množstvo tuku</span>
+                    <span>Znížená váha medzi dňami ≠ znížené množstvo tuku (info k meraniu nižšie)</span>
                   </div>
                 </div>
               </CardContent>
@@ -104,11 +100,11 @@ const Index = () => {
                     <div className="space-y-1">
                       <div className="flex items-start text-sm md:text-base">
                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                        <span>Konzumujte 1,6g bielkovín na 1kg telesnej váhy</span>
+                        <span>Konzumuj 1,6g bielkovín na 1kg telesnej váhy</span>
                       </div>
                       <div className="flex items-start text-sm md:text-base">
                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                        <span>Cvičte pravidelne (aj prechádzky sa počítajú)</span>
+                        <span>Cvič pravidelne (aj prechádzky sa počítajú)</span>
                       </div>
                     </div>
                   </div>
@@ -233,19 +229,19 @@ const Index = () => {
                   <div className="space-y-1">
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Majte dlhodobú víziu a silné dôvody</span>
+                      <span>Maj dlhodobú víziu a silné dôvody</span>
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Odfotografujte sa pre sledovanie pokroku</span>
+                      <span>Odfotografuj sa pre sledovanie pokroku</span>
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Povedzte niekomu o svojom cieli</span>
+                      <span>Povedz niekomu o svojom cieli</span>
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Rozdeľte hlavný cieľ na menšie časti</span>
+                      <span>Rozdeľ hlavný cieľ na menšie časti</span>
                     </div>
                   </div>
                 </div>
@@ -254,11 +250,11 @@ const Index = () => {
                   <div className="space-y-1">
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Plánujte si oslavy a alkohol vopred</span>
+                      <span>Plánuj si oslavy a alkohol vopred</span>
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Vysvetlite priateľom, že chudnete</span>
+                      <span>Vysvetli priateľom, že chudnete</span>
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
@@ -266,7 +262,7 @@ const Index = () => {
                     </div>
                     <div className="flex items-start text-xs md:text-sm">
                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                      <span>Cheat meal je v poriadku, ale s rozumom</span>
+                      <span>"Cheat meal" je v poriadku, ale s rozumom</span>
                     </div>
                   </div>
                 </div>
@@ -334,9 +330,7 @@ const Index = () => {
                   </div>
                 </div>
                 
-                <div className="mt-4 p-3 bg-green-50 rounded border-l-4 border-green-400">
-                  <p className="text-xs md:text-sm"><strong>Pravda:</strong> Všetko sa dá riešiť rozumným prístupom a trpezlivosťou.</p>
-                </div>
+                
               </CardContent>
             </Card>
           </div>

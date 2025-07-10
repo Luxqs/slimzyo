@@ -51,7 +51,7 @@ const Index = () => {
                   </li>
                   <li className="flex items-start text-sm md:text-base">
                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                    <span>Ostatné informácie sú už len pomocné nástroje</span>
+                    <span>Ostatné informácie sú už len pomocné</span>
                   </li>
                 </ul>
                 
@@ -94,7 +94,7 @@ const Index = () => {
                 </p>
                 <div>
                   <div className="mb-3">
-                    <p className="font-semibold text-sm md:text-base mb-2">Odporúčame:</p>
+                    <p className="font-semibold text-sm md:text-base mb-2">Odporúčam:</p>
                     <div className="space-y-1">
                       <div className="flex items-start text-sm md:text-base">
                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
@@ -114,14 +114,12 @@ const Index = () => {
                   <h4 className="font-semibold mb-2 flex items-center text-sm md:text-base">
                     🏃‍♂️ Šport a cvičenie
                   </h4>
-                  <p className="text-xs mb-3 text-inherit md:text-base">
-                    Dôležité pre zdravie, nie nevyhnutné pre chudnutie. 90% úspechu chudnutia závisí od kalorického deficitu.
-                  </p>
+                  <p className="text-xs mb-3 text-inherit md:text-base">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. Približne 90% úspechu chudnutia závisí od kalorického deficitu.</p>
                   
                   <div>
                     <h5 className="font-semibold mb-2 text-xs md:text-sm">Prečo napriek tomu cvičiť:</h5>
                     <div className="space-y-1">
-                      <div className="flex items-start text-xs md:text-sm">
+                      <div className="flex items-start text-sm md:text-sm">
                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
                         <span>Udržanie svalovej hmoty</span>
                       </div>
@@ -192,7 +190,7 @@ const Index = () => {
               <CardContent>
                 <div className="space-y-4 md:space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-2 text-sm md:text-base">📱 Meranie kalórií</h4>
+                    <h4 className="font-semibold mb-2 text-sm md:text-base">📱 Meranie prijatých kalórií</h4>
                     <p className="text-sm md:text-base mb-2">Väčšina ľudí sa mýli v odhadovaní o viac ako 40%!</p>
                     <p className="text-sm md:text-base">
                       Použite aplikácie ako <a href="https://www.myfitnesspal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">MyFitnessPal</a>, <a href="https://kaloricketabulky.sk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">Kalorické Tabuľky</a> a <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">ChatGPT</a> (fotka jedla) na meranie prijatých kalórií
@@ -378,9 +376,7 @@ const Index = () => {
           <p className="text-xs md:text-sm mb-2">
             Obsah pravidelne aktualizujem pre lepšiu zrozumiteľnosť a presnosť.
           </p>
-          <p className="text-xs opacity-75">
-            Založené na vedeckých poznatkoch a osobných skúsenostiach. © 2024 Slimzyo
-          </p>
+          <p className="text-xs opacity-75">Založené na vedeckých poznatkoch a osobných skúsenostiach. © 2025 Slimzyo</p>
         </div>
       </footer>
     </div>;

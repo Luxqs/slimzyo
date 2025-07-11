@@ -10,7 +10,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <img alt="Slimzyo Logo" className="h-24 w-24 md:h-64 md:w-64" src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" />
-            <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 leading-tight">Ako schudnúť zdravo a účinne</h1>
+            <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 leading-tight">Ako schudnúť zdravo a účinne</h1>
           </div>
         </div>
       </header>
@@ -28,12 +28,12 @@ const Index = () => {
 
         {/* Key Principles */}
         <section className="mb-8 md:mb-12">
-          <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-center text-gray-800">Základné princípy</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-center text-gray-800">Základné princípy</h2>
           
           <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="flex items-center text-lg md:text-xl">
+                <CardTitle className="flex items-center text-xl md:text-2xl">
                   <Calculator className="mr-2 text-blue-500 w-5 h-5 md:w-6 md:h-6" />
                   Kalorický deficit
                 </CardTitle>
@@ -83,7 +83,7 @@ const Index = () => {
 
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="flex items-center text-lg md:text-xl">
+                <CardTitle className="flex items-center text-xl md:text-2xl">
                   <Target className="mr-2 text-green-500 w-5 h-5 md:w-6 md:h-6" />
                   Udržanie svalovej hmoty
                 </CardTitle>
@@ -111,13 +111,13 @@ const Index = () => {
                 <Separator className="my-4" />
                 
                 <div>
-                  <h4 className="font-semibold mb-2 flex items-center text-sm md:text-base">
+                  <h4 className="font-semibold mb-2 flex items-center text-lg md:text-xl">
                     🏃‍♂️ Šport a cvičenie
                   </h4>
                   <p className="text-sm mb-3 text-inherit md:text-base">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. Približne 90% úspechu chudnutia závisí od kalorického deficitu.</p>
                   
                   <div>
-                     <h5 className="font-semibold mb-2 text-sm md:text-base">Prečo napriek tomu cvičiť:</h5>
+                     <h5 className="font-semibold mb-2 text-base md:text-lg">Prečo napriek tomu cvičiť:</h5>
                      <div className="space-y-1">
                         <div className="flex items-center text-base">
                           <span className="text-green-500 mr-3 flex-shrink-0">•</span>
@@ -145,7 +145,7 @@ const Index = () => {
           {/* Praktický manuál */}
           <Card className="border-2 border-blue-200">
             <CardHeader>
-              <CardTitle className="flex items-center text-lg md:text-xl">
+              <CardTitle className="flex items-center text-xl md:text-2xl">
                 <BookOpen className="mr-2 text-blue-500 w-5 h-5 md:w-6 md:h-6" />
                 Praktický návod krok za krokom
               </CardTitle>
@@ -179,18 +179,18 @@ const Index = () => {
 
         {/* Essential Tools */}
         <section className="mb-8 md:mb-12">
-          <h2 className="text-xl md:text-2xl font-bold mb-4 md:mb-6 text-center text-gray-800">Nevyhnutné nástroje</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 md:mb-6 text-center text-gray-800">Nevyhnutné nástroje</h2>
           
           <div className="grid md:grid-cols-2 gap-4 md:gap-6 mb-6 md:mb-8">
             {/* Meranie kalórií a váhy - Left column */}
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-lg md:text-xl">Meranie kalórií a váhy</CardTitle>
+                <CardTitle className="text-xl md:text-2xl">Meranie kalórií a váhy</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="space-y-4 md:space-y-6">
                   <div>
-                    <h4 className="font-semibold mb-2 text-sm md:text-base">📱 Meranie prijatých kalórií</h4>
+                    <h4 className="font-semibold mb-2 text-lg md:text-xl">📱 Meranie prijatých kalórií</h4>
                      <p className="text-sm md:text-base mb-2">Väčšina ľudí sa mýli v odhadovaní o viac ako 40%!</p>
                      <p className="text-sm md:text-base mb-2">
                        Použite aplikácie ako <a href="https://www.myfitnesspal.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">MyFitnessPal</a> alebo <a href="https://kaloricketabulky.sk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">Kalorické Tabuľky</a> na meranie a evidovanie prijatých kalórii a <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline font-medium">ChatGPT</a> ako pomôcku k nim.
@@ -200,7 +200,7 @@ const Index = () => {
                      </p>
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-2 text-sm md:text-base">⚖️ Denné váženie</h4>
+                    <h4 className="font-semibold mb-2 text-lg md:text-xl">⚖️ Denné váženie</h4>
                      <p className="text-sm md:text-base mb-2">Nahý, bosý, vždy za rovnakých podmienok</p>
                      <p className="text-sm md:text-base">Sleduj týždenný priemer, nie denné výkyvy</p>
                   </div>
@@ -219,12 +219,12 @@ const Index = () => {
         <section className="mb-8 md:mb-12">
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg md:text-xl">🧠 Psychológia a mentálne stratégie</CardTitle>
+              <CardTitle className="text-xl md:text-2xl">🧠 Psychológia a mentálne stratégie</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-2 gap-4 md:gap-6">
                 <div>
-                  <h4 className="font-semibold mb-2 text-sm md:text-base">Motivácia:</h4>
+                  <h4 className="font-semibold mb-2 text-lg md:text-xl">Motivácia:</h4>
                    <div className="space-y-1">
                       <div className="flex items-center text-base">
                         <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
@@ -245,7 +245,7 @@ const Index = () => {
                    </div>
                 </div>
                 <div>
-                  <h4 className="font-semibold mb-2 text-sm md:text-base">Stratégie:</h4>
+                  <h4 className="font-semibold mb-2 text-lg md:text-xl">Stratégie:</h4>
                    <div className="space-y-1">
                       <div className="flex items-center text-base">
                         <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
@@ -275,10 +275,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-4 md:gap-6">
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-lg md:text-xl">💡 Užitočné tipy</CardTitle>
+                <CardTitle className="text-xl md:text-2xl">💡 Užitočné tipy</CardTitle>
               </CardHeader>
               <CardContent>
-                <h4 className="font-semibold mb-2 text-sm md:text-base">Potlačenie chuti na sladké:</h4>
+                <h4 className="font-semibold mb-2 text-lg md:text-xl">Potlačenie chuti na sladké:</h4>
                  <div className="space-y-1">
                     <div className="flex items-center text-base">
                       <span className="text-green-500 mr-3 flex-shrink-0">•</span>
@@ -296,14 +296,14 @@ const Index = () => {
                 
                 <Separator className="my-4" />
                 
-                <h4 className="font-semibold mb-2 text-sm md:text-base">Pravidelné úpravy:</h4>
+                <h4 className="font-semibold mb-2 text-lg md:text-xl">Pravidelné úpravy:</h4>
                 <p className="text-sm md:text-base">Raz mesačne aktualizuj dennú spotrebu kalórií - ako chudneš, potrebuješ menej energie.</p>
               </CardContent>
             </Card>
 
             <Card className="h-full">
               <CardHeader>
-                <CardTitle className="text-lg md:text-xl">❌ Časté mýty</CardTitle>
+                <CardTitle className="text-xl md:text-2xl">❌ Časté mýty</CardTitle>
               </CardHeader>
               <CardContent>
                  <div className="space-y-2">
@@ -339,7 +339,7 @@ const Index = () => {
         <section className="mb-6 md:mb-8">
           <Card className="bg-gradient-to-r from-blue-500 to-purple-500 text-white">
             <CardHeader className="text-center px-4 py-6">
-              <CardTitle className="flex items-center justify-center text-lg md:text-xl">
+              <CardTitle className="flex items-center justify-center text-xl md:text-2xl">
                 <Users className="mr-2 w-5 h-5 md:w-6 md:h-6" />
                 Prečo som vytvoril túto stránku
               </CardTitle>

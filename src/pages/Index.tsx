@@ -9,7 +9,7 @@ const Index = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <img alt="Slimzyo Logo" className="h-32 w-32 md:h-48 md:w-48" src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" />
+            <img alt="Slimzyo Logo" className="h-24 w-24 md:h-64 md:w-64" src="/lovable-uploads/170b1f10-461e-4caa-8181-a71a44f433a3.png" />
             <h1 className="text-2xl md:text-3xl font-bold text-center text-gray-900 leading-tight">Ako schudnúť zdravo a účinne</h1>
           </div>
         </div>
@@ -41,42 +41,42 @@ const Index = () => {
               <CardContent>
                 
                 <ul className="space-y-2 mb-4">
-                  <li className="flex items-start text-sm md:text-base">
-                    <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
+                  <li className="flex items-center text-base">
+                    <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
                      <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spáliš</span>
                    </li>
-                   <li className="flex items-start text-base">
-                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
+                   <li className="flex items-center text-base">
+                     <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
                      <span>Úbytok 7 700 kcal ≈ 1 kg telesného tuku</span>
                    </li>
-                   <li className="flex items-start text-base">
-                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
+                   <li className="flex items-center text-base">
+                     <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
                      <span>Ostatné informácie sú už len pomocné</span>
                    </li>
                  </ul>
                  
                  <div className="mt-4 p-3 md:p-4 bg-blue-50 rounded-lg">
                    <p className="font-semibold text-sm md:text-base">Príklad dennej spotreby (udržanie váhy):</p>
-                   <div className="flex items-start text-base">
-                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Muž 80kg: 2 000 - 2 400 kcal</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Žena 70kg: 1 600 - 1 900 kcal</span>
-                   </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                      <span>Muž 80kg: 2 000 - 2 400 kcal</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                      <span>Žena 70kg: 1 600 - 1 900 kcal</span>
+                    </div>
                  </div>
                  
                  <div className="mt-4 p-3 md:p-4 bg-yellow-50 rounded-lg border-l-4 border-yellow-400">
                    <p className="font-semibold text-sm md:text-base">⚠️ Dôležité upozornenie:</p>
-                   <div className="flex items-start text-base">
-                     <span className="text-yellow-600 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Chudni maximálne 1% telesnej váhy za týždeň</span>
-                  </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-yellow-600 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Znížená váha medzi dňami ≠ znížené množstvo tuku (info k meraniu nižšie)</span>
+                    <div className="flex items-center text-base">
+                      <span className="text-yellow-600 mr-3 flex-shrink-0">•</span>
+                      <span>Chudni maximálne 1% telesnej váhy za týždeň</span>
                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-yellow-600 mr-3 flex-shrink-0">•</span>
+                      <span>Znížená váha medzi dňami ≠ znížené množstvo tuku (info k meraniu nižšie)</span>
+                    </div>
                 </div>
               </CardContent>
             </Card>
@@ -96,14 +96,14 @@ const Index = () => {
                   <div className="mb-3">
                     <p className="font-semibold text-sm md:text-base mb-2">Odporúčam:</p>
                     <div className="space-y-1">
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Konzumuj 1,6g bielkovín na 1kg telesnej váhy</span>
-                       </div>
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Cvič pravidelne (aj prechádzky sa počítajú)</span>
-                       </div>
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Konzumuj 1,6g bielkovín na 1kg telesnej váhy</span>
+                        </div>
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Cvič pravidelne (aj prechádzky sa počítajú)</span>
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -114,28 +114,28 @@ const Index = () => {
                   <h4 className="font-semibold mb-2 flex items-center text-sm md:text-base">
                     🏃‍♂️ Šport a cvičenie
                   </h4>
-                  <p className="text-xs mb-3 text-inherit md:text-base">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. Približne 90% úspechu chudnutia závisí od kalorického deficitu.</p>
+                  <p className="text-sm mb-3 text-inherit md:text-base">Dôležité pre zdravie, nie nevyhnutné pre chudnutie. Približne 90% úspechu chudnutia závisí od kalorického deficitu.</p>
                   
                   <div>
-                    <h5 className="font-semibold mb-2 text-xs md:text-sm">Prečo napriek tomu cvičiť:</h5>
-                    <div className="space-y-1">
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Udržanie svalovej hmoty</span>
-                       </div>
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Posilnenie kostí</span>
-                       </div>
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Zlepšenie VO2 Max</span>
-                       </div>
-                       <div className="flex items-start text-base">
-                         <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                         <span>Formovanie postavy</span>
-                       </div>
-                    </div>
+                     <h5 className="font-semibold mb-2 text-sm md:text-base">Prečo napriek tomu cvičiť:</h5>
+                     <div className="space-y-1">
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Udržanie svalovej hmoty</span>
+                        </div>
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Posilnenie kostí</span>
+                        </div>
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Zlepšenie VO2 Max</span>
+                        </div>
+                        <div className="flex items-center text-base">
+                          <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                          <span>Formovanie postavy</span>
+                        </div>
+                     </div>
                   </div>
                 </div>
               </CardContent>
@@ -225,45 +225,45 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-4 md:gap-6">
                 <div>
                   <h4 className="font-semibold mb-2 text-sm md:text-base">Motivácia:</h4>
-                  <div className="space-y-1">
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Maj dlhodobú víziu a silné dôvody</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Odfotografuj sa pre sledovanie pokroku</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Povedz niekomu o svojom cieli</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Rozdeľ hlavný cieľ na menšie časti</span>
-                     </div>
-                  </div>
+                   <div className="space-y-1">
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Maj dlhodobú víziu a silné dôvody</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Odfotografuj sa pre sledovanie pokroku</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Povedz niekomu o svojom cieli</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Rozdeľ hlavný cieľ na menšie časti</span>
+                      </div>
+                   </div>
                 </div>
                 <div>
                   <h4 className="font-semibold mb-2 text-sm md:text-base">Stratégie:</h4>
-                  <div className="space-y-1">
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Plánuj si oslavy a alkohol vopred</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Vysvetli priateľom, že chudneš</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>Nemaj doma nezdravé jedlo</span>
-                     </div>
-                     <div className="flex items-start text-base">
-                       <span className="text-blue-500 mr-3 mt-1 flex-shrink-0">•</span>
-                       <span>"Cheat meal" je v poriadku, ale s rozumom</span>
-                     </div>
-                  </div>
+                   <div className="space-y-1">
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Plánuj si oslavy a alkohol vopred</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Vysvetli priateľom, že chudneš</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>Nemaj doma nezdravé jedlo</span>
+                      </div>
+                      <div className="flex items-center text-base">
+                        <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                        <span>"Cheat meal" je v poriadku, ale s rozumom</span>
+                      </div>
+                   </div>
                 </div>
               </div>
             </CardContent>
@@ -279,25 +279,25 @@ const Index = () => {
               </CardHeader>
               <CardContent>
                 <h4 className="font-semibold mb-2 text-sm md:text-base">Potlačenie chuti na sladké:</h4>
-                <div className="space-y-1">
-                   <div className="flex items-start text-base">
-                     <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Cola Zero alebo iné nápoje bez kalórií</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Káva (bez cukru a mlieka)</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-green-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>Žuvačky bez cukru</span>
-                   </div>
-                </div>
+                 <div className="space-y-1">
+                    <div className="flex items-center text-base">
+                      <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                      <span>Cola Zero alebo iné nápoje bez kalórií</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                      <span>Káva (bez cukru a mlieka)</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-green-500 mr-3 flex-shrink-0">•</span>
+                      <span>Žuvačky bez cukru</span>
+                    </div>
+                 </div>
                 
                 <Separator className="my-4" />
                 
                 <h4 className="font-semibold mb-2 text-sm md:text-base">Pravidelné úpravy:</h4>
-                <p className="text-xs md:text-sm">Raz mesačne aktualizuj dennú spotrebu kalórií - ako chudneš, potrebuješ menej energie.</p>
+                <p className="text-sm md:text-base">Raz mesačne aktualizuj dennú spotrebu kalórií - ako chudneš, potrebuješ menej energie.</p>
               </CardContent>
             </Card>
 
@@ -306,28 +306,28 @@ const Index = () => {
                 <CardTitle className="text-lg md:text-xl">❌ Časté mýty</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-2">
-                   <div className="flex items-start text-base">
-                     <span className="text-red-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>"Cvičím brucho, aby som tam schudol/a"</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-red-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>"Pre mňa to neplatí"</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-red-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>"Musím hladovať"</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-red-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>"Jojo efekt je nevyhnutný"</span>
-                   </div>
-                   <div className="flex items-start text-base">
-                     <span className="text-red-500 mr-3 mt-1 flex-shrink-0">•</span>
-                     <span>"Metabolizmus sa spomalí navždy"</span>
-                   </div>
-                </div>
+                 <div className="space-y-2">
+                    <div className="flex items-center text-base">
+                      <span className="text-red-500 mr-3 flex-shrink-0">•</span>
+                      <span>"Cvičím brucho, aby som tam schudol/a"</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-red-500 mr-3 flex-shrink-0">•</span>
+                      <span>"Pre mňa to neplatí"</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-red-500 mr-3 flex-shrink-0">•</span>
+                      <span>"Musím hladovať"</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-red-500 mr-3 flex-shrink-0">•</span>
+                      <span>"Jojo efekt je nevyhnutný"</span>
+                    </div>
+                    <div className="flex items-center text-base">
+                      <span className="text-red-500 mr-3 flex-shrink-0">•</span>
+                      <span>"Metabolizmus sa spomalí navždy"</span>
+                    </div>
+                 </div>
                 
                 
               </CardContent>
@@ -359,7 +359,7 @@ const Index = () => {
                 </Button>
                 <Button variant="secondary" className="flex items-center text-gray-800 hover:bg-white/90 w-full sm:w-auto">
                   <Heart className="mr-2 w-4 h-4" />
-                  <a href="https://buymeacoffee.com/luxqs" target="_blank" rel="noopener noreferrer" className="no-underline">Podporte nás</a>
+                  <a href="https://buymeacoffee.com/slimzyo" target="_blank" rel="noopener noreferrer" className="no-underline">Podporte nás</a>
                 </Button>
               </div>
               

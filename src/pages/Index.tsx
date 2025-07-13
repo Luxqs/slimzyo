@@ -21,8 +21,7 @@ const Index = () => {
           <Card className="bg-gradient-to-r from-green-500 to-blue-500 text-white">
             <CardHeader className="text-center px-4 py-6">
               
-              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">Súhrn poznatkov, ktorý ti umožní pochopiť podstatu chudnutia.
-Ak trpíš akýmkoľvek ochorením, konzultuj prosím svoj plán chudnutia s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">Súhrn poznatkov, ktorý ti umožní pochopiť podstatu chudnutia. Ak trpíš akýmkoľvek ochorením, konzultuj prosím svoj plán chudnutia s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>

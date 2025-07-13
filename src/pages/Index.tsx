@@ -35,24 +35,28 @@ const Index = () => {
               <CardHeader>
                 <CardTitle className="flex items-center text-xl md:text-2xl">
                   <Calculator className="mr-2 text-blue-500 w-5 h-5 md:w-6 md:h-6" />
-                  Kalorický deficit
+                  Chudnutie = Kalorický deficit
                 </CardTitle>
               </CardHeader>
               <CardContent>
                 
                 <ul className="space-y-2 mb-4">
-                   <li className="flex items-center text-sm md:text-base">
-                     <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
-                      <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spáliš</span>
-                    </li>
-                    <li className="flex items-center text-sm md:text-base">
+                     <li className="flex items-center text-sm md:text-base">
                       <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
-                      <span>Úbytok 7 700 kcal ≈ 1 kg telesného tuku</span>
-                    </li>
-                    <li className="flex items-center text-sm md:text-base">
-                      <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
-                      <span>Ostatné informácie sú už len pomocné</span>
-                    </li>
+                       <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spotrebuješ (spáliš)</span>
+                     </li>
+                     <li className="flex items-center text-sm md:text-base">
+                       <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                       <span>Úbytok 7 700 kcal ≈ 1 kg telesného tuku</span>
+                     </li>
+                     <li className="flex items-center text-sm md:text-base">
+                       <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                       <span>Z hľadiska chudnutia nezáleží na tom, či sú potraviny „zdravé" alebo nie; rozhodujú len kalórie</span>
+                     </li>
+                     <li className="flex items-center text-sm md:text-base">
+                       <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
+                       <span>Ostatné informácie sú už len pomocné</span>
+                     </li>
                  </ul>
                  
                  <div className="mt-4 p-3 md:p-4 bg-blue-50 rounded-lg">
@@ -156,14 +160,14 @@ const Index = () => {
                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">1</span>
                    <p className="text-sm md:text-base"><strong>Zisti si dennú spotrebu kalórií</strong> (kalkulačka nižšie alebo <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">ChatGPT</a>)</p>
                  </div>
-                 <div className="flex items-start space-x-3">
-                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">2</span>
-                   <p className="text-sm md:text-base"><strong>Odpočítaj 300-500 kcal</strong> od dennej spotreby</p>
-                 </div>
-                 <div className="flex items-start space-x-3">
-                   <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">3</span>
-                   <p className="text-sm md:text-base"><strong>Meraj prijaté kalórie</strong> prostredníctvom aplikácií a/alebo fotografií jedál cez <a href="https://chat.openai.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800 underline">ChatGPT</a></p>
-                 </div>
+                  <div className="flex items-start space-x-3">
+                    <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">2</span>
+                    <p className="text-sm md:text-base"><strong>Odpočítaj 300 - 500 kcal</strong> od svojej dennej spotreby; to bude tvoj denný limit.</p>
+                  </div>
+                  <div className="flex items-start space-x-3">
+                    <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">3</span>
+                    <p className="text-sm md:text-base"><strong>Meraj prijaté kalórie</strong> prostredníctvom aplikácií</p>
+                  </div>
                  <div className="flex items-start space-x-3">
                    <span className="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm font-bold flex-shrink-0 mt-1">4</span>
                    <p className="text-sm md:text-base"><strong>Váž sa denne</strong> a sleduj týždenný priemer</p>

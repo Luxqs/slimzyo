@@ -9,13 +9,7 @@ const Index = () => {
       <header className="bg-white shadow-sm border-b">
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
-            <img 
-              alt="Slimzyo - Účinné a zdravé chudnutie" 
-              className="h-24 w-24 md:h-32 md:w-32" 
-              src="/lovable-uploads/ce0f09e7-eb3c-4ddc-b140-629c40e3fb05.png"
-              loading="eager"
-              decoding="async"
-            />
+            <img alt="Slimzyo - Účinné a zdravé chudnutie" className="h-24 w-24 md:h-32 md:w-32" src="/lovable-uploads/ce0f09e7-eb3c-4ddc-b140-629c40e3fb05.png" loading="eager" decoding="async" />
             <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 leading-tight">Ako účinne schudnúť</h1>
           </div>
         </div>
@@ -27,7 +21,8 @@ const Index = () => {
           <Card className="bg-gradient-to-r from-green-500 to-blue-500 text-white">
             <CardHeader className="text-center px-4 py-6">
               
-              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">Súhrn overených poznatkov, ktoré fungujú a umožnia ti pochopiť základy zdravého chudnutia. Ak trpíš akýmkoľvek ochorením, konzultuj prosím svoj plán chudnutia s lekárom.</CardDescription>
+              <CardDescription className="text-green-100 text-base md:text-lg leading-relaxed">Súhrn poznatkov, ktorý ti umožní pochopiť podstatu chudnutia.
+Ak trpíš akýmkoľvek ochorením, konzultuj prosím svoj plán chudnutia s lekárom.</CardDescription>
             </CardHeader>
           </Card>
         </section>

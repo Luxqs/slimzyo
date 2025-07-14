@@ -43,7 +43,7 @@ const Index = () => {
                 <ul className="space-y-2 mb-4">
                    <li className="flex items-center text-sm md:text-base">
                      <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
-                      <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spáliš</span>
+                      <span>Kalorický deficit nastane, keď prijmeš menej kalórií, ako spotrebuješ (spáliš)</span>
                     </li>
                     <li className="flex items-center text-sm md:text-base">
                       <span className="text-blue-500 mr-3 flex-shrink-0">•</span>
